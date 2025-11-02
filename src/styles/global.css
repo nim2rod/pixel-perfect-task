@@ -1,0 +1,24 @@
+@import './variables.css';
+
+*{ box-sizing: border-box; }
+html, body, #root { height: 100%; }
+body{
+  margin:0;
+  font-family: var(--font-sans);
+  color: var(--kanat-text);
+  background: var(--kanat-bg);
+  line-height: 1.5;
+}
+a{ color: inherit; text-decoration: none; }
+img{ max-width: 100%; display: block; }
+section{ scroll-margin-top: 84px; }
+html{ scroll-behavior: smooth; }
+.container{
+  width: min(100% - 32px, var(--container));
+  margin-inline: auto;
+}
+.hidden-mobile{ display: none; }
+@media (min-width: 768px){
+  .hidden-mobile{ display: initial; }
+  .hidden-desktop{ display: none !important; }
+}

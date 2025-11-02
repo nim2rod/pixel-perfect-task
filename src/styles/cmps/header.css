@@ -1,0 +1,38 @@
+.app-header{
+    display: flex;
+    justify-content: space-between;
+    height: 98px;
+    color: #452A7A;
+    font-weight: 700;
+    font-size: 21px;
+}
+
+.left-header {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.log-in-btn{
+    color: white;
+    background-color: #0AB285;
+    height: 100%;
+    width: 284px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.right-header{
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.header-btns {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
