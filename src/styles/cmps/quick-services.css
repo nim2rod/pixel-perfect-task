@@ -1,0 +1,29 @@
+.quick-services-main {
+    color: #452A7A;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    background-color: #FFFFFF;
+    position: absolute;
+    left: 0;
+    padding-inline: 14px;
+}
+
+.quick-service-header{
+    font-weight: 800;
+}
+
+.quick-service-item {
+    border-top: 1px solid #dad8d8;
+    padding: 6px;
+    height: 65px;
+    align-content: center;
+    max-width: 120px;
+    display: flex;
+    gap: 3px;
+    justify-content: center;
+    align-items: center;
+}
+
+.quick-services-main img {
+    width: 27px;
+}

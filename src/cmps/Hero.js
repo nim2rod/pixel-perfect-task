@@ -2,6 +2,7 @@ import React from 'react';
 import '../styles/cmps/hero.css';
 import heroImage from '../assets/hero/hero-img.png';
 import details from '../assets/hero/details-btn.svg';
+import QuickServices from './QuickServices';
 
 const Hero = () => {
     return (
@@ -11,7 +12,8 @@ const Hero = () => {
             <div className="hero__overlay">
                 <div className="hero__quick">
                     {/* כאן נכניס מאוחר יותר את הקומפוננטה של QuickServices */}
-                    <div className="hero__quick-placeholder">שירותים מהירים</div>
+                    {/* <div className="hero__quick-placeholder">שירותים מהירים</div> */}
+                    <QuickServices />
                 </div>
 
                 <div className="hero__content">
