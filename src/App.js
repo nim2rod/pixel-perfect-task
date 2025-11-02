@@ -1,12 +1,13 @@
 import React from 'react';
-import Header from './cmps/Header'; 
+import Header from './cmps/Header';
+import NewsBreak from './cmps/NewsBreak';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <Header />
-      <h1>Hello, Pixel Perfect Task!</h1>
+      <NewsBreak />
     </div>
   )
 }

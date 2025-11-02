@@ -1,0 +1,16 @@
+.news-break{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    background-color: #452A7A;
+    color: white;
+    height: 40px;
+    font-weight: 400;
+    gap: 15px;
+    padding-right: 28px;
+}
+
+.news-break p{
+    font-size: 18px;
+    font-weight: 700;
+}
